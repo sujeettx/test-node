@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            gap: 10px;
+            text-align: center;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">
+        home page
+    </h1>
+    <form action="/profile" enctype="multipart/form-data" method="post">
+        <label>select profile image</label>
+        <input type="file" name="profileImage"/>
+        <button type=" submit">upload</button>
+    </form>
+</body>
+</html>
